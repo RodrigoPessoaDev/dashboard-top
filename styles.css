@@ -1,0 +1,35 @@
+body {
+  font-size: 62.5%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) repeat(1, 3fr);
+  grid-template-rows: repeat(1, 1fr) repeat(1, 4fr);
+}
+
+/* Temporary css for layout */
+
+.header_container {
+  width: 80vw;
+  height: 100px;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.sidebar_container {
+  height: 100vh;
+  width: 150px;
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+.main_container {
+  width: 500px;
+  height: 500px;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.header_container,
+.sidebar_container,
+.main_container {
+  border: 1px solid black;
+}
