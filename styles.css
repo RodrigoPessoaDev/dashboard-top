@@ -229,7 +229,8 @@ button:hover {
   background: #0369a1;
 }
 
-.profile_container img {
+.profile_container img,
+.profile_container svg {
   width: 45px;
   height: 45px;
   margin-right: 10px;
@@ -242,7 +243,8 @@ button:hover {
   align-items: center;
 }
 
-.welcoming_container img {
+.welcoming_container img,
+.welcoming_container svg {
   width: 60px;
   height: auto;
   margin-right: 10px;
